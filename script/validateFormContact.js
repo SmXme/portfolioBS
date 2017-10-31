@@ -10,16 +10,16 @@ function checkFormContact(){
 	if (lastName.value == "" || firstName.value == "" || eMail.value == "" || msg.value == ""){
 		errorLocation.innerHTML = "<ul>Veuillez corriger les erreurs suivantes afin d'envoyer le formulaire de contact :";
 		if (lastName.value == "") {
-			errorLocation.innerHTML+='<li>Compléter le champ "Nom"</li>';
+			errorLocation.innerHTML+='<li>Compléter le champ <em><b>"Nom"</b></em></li>';
 		}
 		if(firstName.value == ""){
-			errorLocation.innerHTML+='<li>Compléter le champ "Prénom"</li>';
+			errorLocation.innerHTML+='<li>Compléter le champ <em><b>"Prénom"</b></em></li>';
 		}
 		if(eMail.value == ""){
-			errorLocation.innerHTML+='<li>Compléter le champ "Email"</li>';
+			errorLocation.innerHTML+='<li>Compléter le champ <em><b>"Email"</b></em></li>';
 		}
 		if (msg.value == ""){
-			errorLocation.innerHTML+='<li>Compléter le champ "Message"</li>';
+			errorLocation.innerHTML+='<li>Compléter le champ <em><b>"Message"</b></em></li>';
 		}
 		errorLocation.innerHTML+='</ul>';
 	} 

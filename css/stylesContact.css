@@ -30,9 +30,12 @@
 	resize: none;
 	overflow: hidden;
 }
+
 #formContact fieldset p, #formContact fieldset p ul{
+	color:red;
 	padding: 0;
 	text-align: left;
+	 list-style: none;
 }
 #btn-outline-orange{
 	color: #e04c0f;
