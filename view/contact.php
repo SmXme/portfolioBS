@@ -21,16 +21,15 @@
 				</div>
 				<div class="form-row form-group">
 					<div class="col">
-						<textarea rows=7 name="txtAreaContact" id="txtAreaContact" class="form-control form-control-lg" placeholder="Message"></textarea>
+						<textarea rows=7 maxlength="250" name="txtAreaContact" id="txtAreaContact" class="form-control form-control-lg" placeholder="Message (250 caractères max)."></textarea>
 					</div>
 				</div>
 				<div class="form-row form-group justify-content-center">
 					<input type="submit" name="inputSubmit" class="btn btn-outline-danger" id="btn-outline-orange">
 				</div>
+				<p id="errorList"></p>
 			</fieldset>
 		</form>
-			<p id="errorList"></p>
 	</div>
 </section>
-
-		<script src="script/validateFormContact.js"></script>
+<script src="script/validateFormContact.js"></script>

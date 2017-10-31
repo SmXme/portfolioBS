@@ -28,6 +28,7 @@
 }
 #formContact textarea{
 	resize: none;
+	overflow: hidden;
 }
 #btn-outline-orange{
 	color: #e04c0f;
