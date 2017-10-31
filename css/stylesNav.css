@@ -1,0 +1,36 @@
+#mainNav ul{
+    height: 12vh;
+    font-size: 0.85vw;
+    z-index: 100000;
+}
+.nav-item{
+    width: 12vw;
+    border: 2px solid white;
+    border-radius: .5rem;
+    transition: width 0.5s;
+}
+.nav-item:hover{
+    width: 13vw;
+}
+.nav-link{
+    color: white;  
+    padding: 1rem 1rem;
+    transition: background-color 0.5s, color 0.5s;
+
+}
+.nav-link:hover, .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: white;
+    color: #0073b8;
+}
+#divDropDown{
+    font-size: 0.85vw;
+    min-width: 100%;
+}
+#divDropDown .dropdown-item{
+    color: #0073b8;
+    transition: background-color 0.5s, color 0.5s;
+}
+#divDropDown .dropdown-item:hover{
+    background-color: #0073b8;
+    color:white;
+}

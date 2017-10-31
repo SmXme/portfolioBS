@@ -1,0 +1,84 @@
+#contactSilhouette{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 65vw;
+	margin-left: -27vw;
+	animation-name: silhouetteContact;
+	animation-duration: 2s;
+}
+#divFormContact{
+	animation-name: formContact;
+	animation-duration: 3.5s;
+}
+#formContact{
+	font-family: 'Roboto',sans-serif;
+}
+#formContact fieldset{
+	border:2px solid #e04c0f;
+}
+#formContact input, #formContact textarea, #formContact fieldset{
+	border-color: #e04c0f;
+	transition: border 0.2s;
+}
+#formContact input[type="text"]:focus,#formContact input[type="email"]:focus, #formContact textarea:focus{
+	border:2px solid #e04c0f;
+	font-style: italic;
+	font-weight: bold;
+}
+#formContact textarea{
+	resize: none;
+}
+#btn-outline-orange{
+	color: #e04c0f;
+	border-color: #e04c0f ;
+}
+#btn-outline-orange:hover{
+	color: white;
+	border-color: #e04c0f ;
+	background-color: #e04c0f;
+	cursor: pointer;
+}
+#btn-outline-orange:active{
+	color: white;
+	border-color: #e04c0f ;
+	background-color: #e04c0f;
+	cursor: pointer;
+}
+
+@keyframes silhouetteContact{
+    0% {opacity: 0; width: 0;}
+    100% {opacity: 1; width: 65vw;}
+}
+
+@keyframes formContact{
+    0% {opacity: 0;}
+    33% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media screen and (min-width: 1920px) and (min-height: 949px){
+	#contactSilhouette{
+		width: 58vw;
+		margin-left: -22vw;
+	}
+	
+	@keyframes silhouetteContact{
+    	0% {opacity: 0; width: 0;}
+    	100% {opacity: 1; width: 58vw;}
+	}
+}
+
+/* ANCIENNE VALEUR MIN-HEIGHT 662px*/
+@media screen and (min-width: 1365px) and (max-width:1367px) and (min-height: 658px){
+	#contactSilhouette{
+		width: 58vw;
+		margin-left: -22vw;
+	}
+	
+	@keyframes silhouetteContact{
+    	0% {opacity: 0; width: 0;}
+    	100% {opacity: 1; width: 58vw;}
+	}
+}

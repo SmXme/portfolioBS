@@ -1,0 +1,38 @@
+
+html,body{
+    overflow: hidden;
+}
+.row, .container-fluid{
+    padding:0;
+    margin: 0;
+}
+.mainSection{
+    height: 85vh;
+}
+.mainSection aside{
+    position: relative;
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.RobotoSlab{
+    font-family: 'Roboto Slab', serif;
+}
+
+.txtOrange{
+    color:#e04c0f;   
+}
+
+.bg-myBlue{
+    background-color: #0073b8;
+}
+
+.bg-myOrange{
+    background-color: #e04c0f;
+}
+
+
+
+Bleus : 0073b8 rgb(0, 115, 184)
+Orange : e04c0f
