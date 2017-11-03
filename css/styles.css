@@ -31,7 +31,10 @@ html,body{
 .bg-myOrange{
     background-color: #e04c0f;
 }
-
+a#pageActive {
+    background-color: white;
+    color :#0073b8;
+}
 
 
 Bleus : 0073b8 rgb(0, 115, 184)

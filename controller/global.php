@@ -1,23 +1,33 @@
 <?php		
+
+$accueilON = $aboutON = $contactON = $projectsON = $mentionsON = "";
 if($_SERVER['REQUEST_METHOD'] === 'GET' and isset($_GET['page'])){
 	switch ($_GET['page']) {
 		case "accueil":
-			include 'view/accueil.php';
+			$accueilON = "id='pageActive'";
+			$includePage = 'view/accueil.php';
 			break;
 		case "contact":
-			include 'view/contact.php';
+			$contactON = "id='pageActive'";
+			$includePage = 'view/contact.php';
 			break;
 		case "about":
-			include 'view/about.php';
+			$aboutON = "id='pageActive'";
+			$includePage = 'view/about.php';
 			break;
 		case "mentions":
-			include 'view/mentions.php';
+			$mentionsON = "id='pageActive'";
+			$includePage = 'view/mentions.php';
 			break;
 		case "projects":
-			include 'view/projects.php';
-						break;
+			$projectsON = "id='pageActive'";
+			$includePage = 'view/projects.php';
+			break;
 		default:
-			include 'view/accueil.php';
+			$accueilON = "id='pageActive";
+			$includePage = 'view/accueil.php';
 	}
-}else include 'view/accueil.php';
-?>
+}else{
+	$accueilON = "id='pageActive";
+	$includePage = 'view/accueil.php';
+} 

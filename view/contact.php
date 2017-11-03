@@ -3,7 +3,7 @@
 		<img id="contactSilhouette" src="images/silhouette_bye_1.png" alt="Silhouette Contact Auteur">
 	</aside>
 	<div id="divFormContact" class="col d-flex justify-content-center align-items-center">
-		<form id="formContact" onsubmit="return checkFormContact();" class="text-center w-75" method="POST" action="controller/actionContact.php">
+		<form id="formContact" onsubmit="return checkFormContact();" class="text-center" method="POST" action="controller/actionContact.php">
 			<fieldset class="form-group form-control pr-4 pl-4">
 				<legend class="txtOrange w-75"><h2>Contactez-moi</h2></legend>
 				<div class="form-row form-group">
