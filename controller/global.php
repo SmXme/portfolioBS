@@ -28,6 +28,6 @@ if($_SERVER['REQUEST_METHOD'] === 'GET' and isset($_GET['page'])){
 			$includePage = 'view/accueil.php';
 	}
 }else{
-	$accueilON = "id='pageActive";
+	$accueilON = "id='pageActive'";
 	$includePage = 'view/accueil.php';
 } 
