@@ -16,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="css/stylesContact.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesNav.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesFooter.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesAbout.css">
 		<!-- <link rel="stylesheet" type="text/css" href="css/stylesNavbar.css"> -->
 	</head>
 	<body>
