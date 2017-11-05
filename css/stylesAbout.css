@@ -3,6 +3,7 @@
 	color:white;
 	animation-name: openSidebar;
 	animation-duration: 3s;
+	overflow: auto;
 
 }
 .aboutSidebar #testMyPhoto img{
@@ -60,7 +61,7 @@
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
 	10%	{opacity: 0;}
-	100% {opacity: 1; height: 85vh;}
+	100% {opacity: 1; height: 83vh;}
 }
 
 @keyframes gauges {
