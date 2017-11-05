@@ -22,9 +22,10 @@ footer{
 }
 #divFooterRS a{
 	color:white;
-	transition: font-size 0.3s;
+	transition: color 0.5s;
 }
 
 #divFooterRS a:hover{
-	font-size: 2.2rem;
+	color : rgba(255,255,255,0.6);
+
 }
