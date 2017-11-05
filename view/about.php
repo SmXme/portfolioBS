@@ -1,5 +1,5 @@
-<section class="row bg-success mainSection">
-	<div class="col-md-3 bg-danger">
+<section class="row mainSection">
+	<div class="col-md-3">
 		<div class="testPercentContainer">
 			<div class="jsp divQuart">
 				25%
