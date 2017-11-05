@@ -1,6 +1,9 @@
 .aboutSidebar{
 	background-color: #e04c0f;
 	color:white;
+	animation-name: openSidebar;
+	animation-duration: 3s;
+
 }
 .aboutSidebar #testMyPhoto img{
 	width: 40%;
@@ -31,6 +34,8 @@
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 10px;
+	animation-name: gauges;
+	animation-duration: 4s;
 }
 .jsp{
 	height: 100%;
@@ -50,4 +55,16 @@
 }
 .divFull {
 	width: 100%;
+}
+
+@keyframes openSidebar {
+	0%	{opacity: 0; height: 0;}
+
+	100% {opacity: 1; height: 85vh;}
+}
+
+@keyframes gauges {
+	0% {opacity: 0; width: 0;}
+	50% {opacity: 0; width: 0;}
+	100% {opacity: 1; width: 100%;}
 }
