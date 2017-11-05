@@ -1,5 +1,8 @@
 <section class="row mainSection">
 	<div class="aboutSidebar col-md-3">
+		<div id="testMyPhoto" class="text-center pt-2">
+			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
+		</div>
 		<h3><i class="fa fa-id-card" aria-hidden="true"></i>Informations</h3>
 		<h6><i class="fa fa-briefcase" aria-hidden="true"></i>Développeur WEB</h6>
 		<h6><i class="fa fa-home" aria-hidden="true"></i>Chérisay, FR</h6>
