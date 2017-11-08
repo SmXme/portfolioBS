@@ -15,7 +15,7 @@
 .aboutSidebar h3{
 	margin-top: 1vw;
 	padding: 10px 0;
-	border-bottom: 2px dotted white;
+	border-bottom: 2px solid white;
 	color: white;
 	text-align: center;
 }
@@ -25,6 +25,21 @@
 .aboutSidebar h5{
 	margin-top: 20px;
 }
+.subTitle{
+	border-bottom: 1px rgba(255,255,255,1) dotted;
+}
+.labelGauge{
+	font-size: 0.7em;
+	margin-bottom:5px; 
+}
+/*#monTitreTest::after{
+	display: inline-block;
+	content: '';
+	background-color: white;
+	vertical-align: middle;
+	height: 2px;
+	width: 3rem;
+}*/
 .aboutSidebar .fa{
 	padding-right: 20px;
 }
@@ -34,9 +49,13 @@
 	border : 1px solid white;
 	background-color: white;
 	border-radius: 10px;
-	margin-top: 10px;
+	margin-top: 5px;
 	animation-name: gauges;
 	animation-duration: 4s;
+	align-items: center;
+}
+.txtPercent{
+	font-size:0.9em;
 }
 .jsp{
 	height: 100%;

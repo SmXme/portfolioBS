@@ -9,29 +9,29 @@
 		<h6><i class="fa fa-envelope" aria-hidden="true"></i>pillot.clement@gmail.com</h6>
 		<h6><i class="fa fa-phone" aria-hidden="true"></i>06.14.58.44.88</h6>
 		<h3><i class="fa fa-certificate" aria-hidden="true"></i>Compétences</h3>
-		<h5><i class="fa fa-terminal" aria-hidden="true"></i>Développement WEB</h5>
-		<h6 class="text-center">HTML</h6>
+		<h5 class="subTitle"><i class="fa fa-terminal" aria-hidden="true"></i>Développement WEB</h5>
+		<h6 class="text-center labelGauge">HTML</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divQuart">
-				25%
+				<span class="txtPercent">25%</span>
 			</div>
 		</div>
-		<h6 class="text-center">CSS</h6>
+		<h6 class="text-center labelGauge">CSS</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divHalf">
-				50%
+				<span class="txtPercent">50%</span>
 			</div>
 		</div>
-		<h6 class="text-center">Javascript</h6>
+		<h6 class="text-center labelGauge">Javascript</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divtQuart">
-				75%
+				<span class="txtPercent">75%</span>
 			</div>
 		</div>
-		<h6 class="text-center">PHP</h6>
+		<h6 class="text-center labelGauge">PHP</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divFull">
-				100%
+				<span class="txtPercent">100%<span>
 			</div>
 		</div>
 	</div>
