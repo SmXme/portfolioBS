@@ -82,7 +82,11 @@
 }
 #divAbout h2{
 	color : #e04c0f;
-	border-bottom: 1px #e04c0f solid; 
+	border-bottom: 2px #e04c0f solid; 
+	padding-bottom: 5px;
+}
+#divAbout h2 i{
+	padding-right: 30px; 
 }
 
 @keyframes openSidebar {
