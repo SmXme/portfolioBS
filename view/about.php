@@ -62,5 +62,8 @@
 		</div>
 
 	</div>
-	<div class="col-md bg-warning"></div>
+	<div id="divAbout" class="col-md">
+		<h2>Mes expériences</h2>
+		<h2>Mon cursus</h2>
+	</div>
 </section>

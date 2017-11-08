@@ -80,6 +80,10 @@
 .divFull {
 	width: 100%;
 }
+#divAbout h2{
+	color : #e04c0f;
+	border-bottom: 1px #e04c0f solid; 
+}
 
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
