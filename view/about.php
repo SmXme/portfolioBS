@@ -12,36 +12,49 @@
 		<h5 class="subTitle"><i class="fa fa-terminal" aria-hidden="true"></i>Développement WEB</h5>
 		<h6 class="text-center labelGauge">HTML</h6>
 		<div class="testPercentContainer">
-			<div class="jsp divQuart">
-				<span class="txtPercent">25%</span>
+			<div class="jsp divtQuart">
+				<span class="txtPercent">75%</span>
 			</div>
 		</div>
 		<h6 class="text-center labelGauge">CSS</h6>
-		<div class="testPercentContainer">
-			<div class="jsp divHalf">
-				<span class="txtPercent">50%</span>
-			</div>
-		</div>
-		<h6 class="text-center labelGauge">Javascript</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divtQuart">
 				<span class="txtPercent">75%</span>
 			</div>
 		</div>
+		<h6 class="text-center labelGauge">Javascript</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divHalf">
+				<span class="txtPercent">50%</span>
+			</div>
+		</div>
 		<h6 class="text-center labelGauge">PHP</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divHalf">
+				<span class="txtPercent">50%<span>
+			</div>
+		</div>
+
+		<h5 class="subTitle"><i class="fa fa-futbol-o" aria-hidden="true"></i>Divers</h5>
+		<h6 class="text-center labelGauge">Adobe After Effects</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divtQuart">
+				<span class="txtPercent">75%<span>
+			</div>
+		</div>
+		<h6 class="text-center labelGauge">Adobe Premiere Pro</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divtQuart">
+				<span class="txtPercent">75%<span>
+			</div>
+		</div>
+		<h6 class="text-center labelGauge">Montage PC</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divFull">
 				<span class="txtPercent">100%<span>
 			</div>
 		</div>
 
-		<h5 class="subTitle"><i class="fa fa-futbol-o" aria-hidden="true"></i>Divers</h5>
-		<h6 class="text-center labelGauge">PHP</h6>
-		<div class="testPercentContainer">
-			<div class="jsp divFull">
-				<span class="txtPercent">100%<span>
-			</div>
-		</div>
 	</div>
 	<div class="col-md bg-warning"></div>
 </section>
