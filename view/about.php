@@ -34,6 +34,14 @@
 				<span class="txtPercent">100%<span>
 			</div>
 		</div>
+
+		<h5 class="subTitle"><i class="fa fa-futbol-o" aria-hidden="true"></i>Divers</h5>
+		<h6 class="text-center labelGauge">PHP</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divFull">
+				<span class="txtPercent">100%<span>
+			</div>
+		</div>
 	</div>
 	<div class="col-md bg-warning"></div>
 </section>

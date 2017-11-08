@@ -26,7 +26,11 @@
 	margin-top: 20px;
 }
 .subTitle{
+	text-align: right;
 	border-bottom: 1px rgba(255,255,255,1) dotted;
+}
+.subTitle .fa{
+	float: left;
 }
 .labelGauge{
 	font-size: 0.7em;
