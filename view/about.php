@@ -34,6 +34,12 @@
 				<span class="txtPercent">50%<span>
 			</div>
 		</div>
+		<h6 class="text-center labelGauge">SQL</h6>
+		<div class="testPercentContainer">
+			<div class="jsp divQuart">
+				<span class="txtPercent">25%<span>
+			</div>
+		</div>
 
 		<h5 class="subTitle"><i class="fa fa-futbol-o" aria-hidden="true"></i>Divers</h5>
 		<h6 class="text-center labelGauge">Adobe After Effects</h6>
