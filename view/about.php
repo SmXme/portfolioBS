@@ -4,6 +4,7 @@
 			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
 		</div>
 		<h3><i class="fa fa-id-card" aria-hidden="true"></i>Informations</h3>
+		<h6><i class="fa fa-user-circle" aria-hidden="true"></i>PILLOT Clément (22 ans)</h6>
 		<h6><i class="fa fa-briefcase" aria-hidden="true"></i>Développeur WEB</h6>
 		<h6><i class="fa fa-home" aria-hidden="true"></i>Chérisay, FR</h6>
 		<h6><i class="fa fa-envelope" aria-hidden="true"></i>pillot.clement@gmail.com</h6>
@@ -63,14 +64,16 @@
 
 	</div>
 	<div id="divAbout" class="txtOrange col-md">
-		<h2><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
-		<ul>
+		<div style="height: 45%">
+		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
+		<ul class="mt-3">
 			<li><p><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p></li>
 			<li><p><span class="badge badge-secondary">Février 2016 / Mars 2016</span> - <b>ASPerience</b> - <i>Damigny.</i></p></li>
 			<li><p><span class="badge badge-secondary">Avril 2015 / Mai 2015</span> - <b>IRFSS Croix-Rouge</b> - <i>Alençon.</i></p></li>
 		</ul>
-		<h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
-		<ul>
+	</div>
+		<h2 class="mt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
+		<ul class="mt-3">
 			<li><p><span class="badge badge-secondary">En Cours</span> - <b>Formation Codeur Développeur Intégrateur WEB</b> - <i>ISF, Damigny.</i></p></li>
 			<li><p><span class="badge badge-secondary">2013 / 2017 </span> - <b>BTS Service Informatique aux Organisations option Solutions Logicielles et Applications Métiers</b> - <i>CNED, Poitiers.</i></p></li>
 			<li><p><span class="badge badge-secondary">2012 / 2013 </span> - <b>DUT Informatique 1ère Année</b> - <i>IUT, Maubeuge.</i></p></li>
