@@ -63,7 +63,7 @@
 
 	</div>
 	<div id="divAbout" class="col-md">
-		<h2><i class="fa fa-flask" aria-hidden="true"></i>Mes expériences</h2>
+		<h2><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
 	</div>
 </section>
