@@ -64,12 +64,27 @@
 
 	</div>
 	<div id="divAbout" class="txtOrange col-md">
-		<div style="height: 45%">
+		<div style="height: 55%">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
-			<li><p><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p></li>
-			<li><p><span class="badge badge-secondary">Février 2016 / Mars 2016</span> - <b>ASPerience</b> - <i>Damigny.</i></p></li>
-			<li><p><span class="badge badge-secondary">Avril 2015 / Mai 2015</span> - <b>IRFSS Croix-Rouge</b> - <i>Alençon.</i></p></li>
+			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p>
+				<ul>
+					<li>Création d'une application de traitements et d'affichages de statistiques en, provenant d'un fichier SQL généré par un plugin sur un serveur de jeu (CSGO).</li>
+					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
+				</ul>
+			</li>
+			<li class="mt-3"><p class="m-0"><span class="badge badge-secondary">Février 2016 / Mars 2016</span> - <b>ASPerience</b> - <i>Damigny.</i></p>
+				<ul>
+					<li>Débuggage et adaptation d'eGroupware pour une version plus récente de PHP, afin de faire fonctionner la messagerie avec les versions d'outlook plus récentes.</li>
+					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
+				</ul>
+			</li>
+			<li class="mt-3"><p class="m-0"><span class="badge badge-secondary">Avril 2015 / Mai 2015</span> - <b>IRFSS Croix-Rouge</b> - <i>Alençon.</i></p>
+				<ul>
+					<li>Refonte graphique, amélioration, et création de modules pour une application régionale de gestion du temps de travail des employés.</li>
+					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
+				</ul>
+			</li>
 		</ul>
 	</div>
 		<h2 class="mt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>

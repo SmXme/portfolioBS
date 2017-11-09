@@ -91,6 +91,11 @@
 .badge-secondary{
 	background-color: #e04c0f;
 }
+.badge-language{
+	background-color: #0073b8;
+	color: white;
+	font-size: 0.6em;
+}
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
 	10%	{opacity: 0;}
