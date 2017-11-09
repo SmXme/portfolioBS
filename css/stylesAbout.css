@@ -88,7 +88,9 @@
 #divAbout h2 i{
 	padding-right: 30px; 
 }
-
+.badge-secondary{
+	background-color: #e04c0f;
+}
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
 	10%	{opacity: 0;}
