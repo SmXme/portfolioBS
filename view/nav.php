@@ -3,12 +3,16 @@
 		<li class="nav-item">
 			<a <?php echo $accueilON?> class="nav-link" href="index.php?page=accueil">ACCUEIL</a>
 		</li>
-		<li class="nav-item dropdown">
-			<a <?php echo $aboutON?> class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" href="index.php?page=about">QUI SUIS-JE ?</a>
-			<div id ="divDropDown" class="dropdown-menu text-center">
+
+		<!-- class="dropdown" -->
+		<li class="nav-item"> 
+
+			<!-- class ="dropdown-toggle" data-toggle="dropdown" -->
+			<a <?php echo $aboutON?> class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" href="index.php?page=about">QUI SUIS-JE ?</a>
+<!-- 			<div id ="divDropDown" class="text-center">
 				<a class="dropdown-item" href="index.php?page=about">MON PARCOURS</a>
 				<a class="dropdown-item" href="index.php?page=about">MES COMPÉTENCES</a>
-			</div>
+			</div> -->
 		</li>
 		<li class="nav-item">
 			<a <?php echo $projectsON?> class="nav-link" href="index.php?page=projects">MES RÉALISATIONS</a>

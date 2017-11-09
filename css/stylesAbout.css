@@ -95,6 +95,7 @@
 	background-color: #0073b8;
 	color: white;
 	font-size: 0.6em;
+	margin-left: 2px;
 }
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
