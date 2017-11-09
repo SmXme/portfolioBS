@@ -80,6 +80,10 @@
 .divFull {
 	width: 100%;
 }
+#divAbout{
+	animation-duration: 5s;
+	animation-name: displayAbout;
+}
 #divAbout h2{
 	color : #e04c0f;
 	border-bottom: 2px #e04c0f solid; 
@@ -107,4 +111,9 @@
 	0% {opacity: 0; width: 0;}
 	50% {opacity: 0; width: 0;}
 	100% {opacity: 1; width: 100%;}
+}
+@keyframes displayAbout {
+	0%	{opacity: 0;}
+	66%	{opacity: 0;}
+	100% {opacity: 1;}
 }
