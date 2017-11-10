@@ -64,7 +64,6 @@
 
 	</div>
 	<div id="divAbout" class="txtOrange col-md">
-		<div style="height: 55%">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
 			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p>
@@ -86,7 +85,6 @@
 				</ul>
 			</li>
 		</ul>
-	</div>
 		<h2 class="mt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
 		<ul class="mt-3">
 			<li><p><span class="badge badge-secondary">En Cours</span> - <b>Formation Codeur Développeur Intégrateur WEB</b> - <i>ISF, Damigny.</i></p></li>

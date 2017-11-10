@@ -83,6 +83,7 @@
 #divAbout{
 	animation-duration: 5s;
 	animation-name: displayAbout;
+	overflow: auto;
 }
 #divAbout h2{
 	color : #e04c0f;
