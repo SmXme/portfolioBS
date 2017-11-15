@@ -27,10 +27,8 @@
 				<div class="form-row form-group justify-content-center">
 					<input type="submit" name="inputSubmit" class="btn btn-outline-danger" id="btn-outline-orange">
 				</div>
-				<p id="errorList"></p>
 			</fieldset>
 		</form>
 	</div>
 </section>
-<script src="script/validateFormContact.js"></script>
 	
