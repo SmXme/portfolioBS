@@ -1,11 +1,28 @@
-$("input[type='text']").on("click",hideErrorContact);
-$("input[type='email']").on("click",hideErrorContact);
-$("textarea").on("click",hideErrorContact);
-$("input[type='submit']").on("click",showErrorContact);
+function checkFormContact(){
+	var lastName = $('#inputLastName');
+	var firstName = $('#inputFirstName');
+	var eMail = $('#inputMail');
+	var result = false;
+	var msg = $('#txtAreaContact');
+	if (lastName.val() == "" || firstName.val() == "" || eMail.val() == "" || msg.val() == ""){
+		if (lastName.val() == "") {
+			lastName.css("background-color","rgba(224, 76, 15,1)");
+		}
+		if(firstName.val() == ""){
+			firstName.css("background-color","rgba(224, 76, 15,1)");
+		}
+		if(eMail.val() == ""){
+			eMail.css("background-color","rgba(224, 76, 15,1)");
+		}
+		if (msg.val() == ""){
+			msg.css("background-color","rgba(224, 76, 15,1)");
+		}
+	} 
+	else 
+	{
+		result = true;
+	}
+	return result;
+}	
+$('#formContact').submit(checkFormContact);
 
-function showErrorContact () {
-	$("#errorList").css("display","block");
-}
-function hideErrorContact () {
-	$("#errorList").css("display","none");
-}
