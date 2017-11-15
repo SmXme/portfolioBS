@@ -2,4 +2,22 @@
 	width: 20rem;
 	height : 32rem;
 	border-color: rgba(224, 76, 15,1);
+	animation-name: animCards;
+	animation-duration:2s; 
+}
+
+.card-body{
+	animation-name: animCardBody;
+	animation-duration: 4s;  
+}
+
+@keyframes animCardBody{
+	0% { opacity: 0;}
+	50% { opacity: 0;}
+	100% {opacity: 1;}	
+}
+@keyframes animCards {
+	0% {width: 0rem; opacity: 0;}
+	20% {opacity: 0;}
+	100% {width: 20rem;opacity: 1;}
 }
