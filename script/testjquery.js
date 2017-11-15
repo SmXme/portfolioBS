@@ -2,9 +2,8 @@ function checkFormContact(){
 	var lastName = $('#inputLastName');
 	var firstName = $('#inputFirstName');
 	var eMail = $('#inputMail');
-	var result = event.preventDefault();
+	var result = false;
 	var msg = $('#txtAreaContact');
-	console.log('début '+result);
 	if (lastName.val() == "" || firstName.val() == "" || eMail.val() == "" || msg.val() == ""){
 		if (lastName.val() == "") {
 			lastName.css("background-color","rgba(224, 76, 15,1)");
@@ -23,7 +22,6 @@ function checkFormContact(){
 	{
 		result = true;
 	}
-	console.log(result);
 	return result;
 }	
 $('#formContact').submit(checkFormContact);
