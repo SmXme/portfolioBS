@@ -54,6 +54,16 @@
 	cursor: pointer;
 }
 
+.toggleFormClass{
+	background-color: rgba(224, 76, 15,1);
+}
+
+.toggleFormClass::-webkit-input-placeholder {
+    color: white;
+}
+.toggleFormClass::-moz-input-placeholder {
+    color: white;
+}
 @keyframes silhouetteContact{
     0% {opacity: 0; width: 0;}
     100% {opacity: 1; width: 65vw;}

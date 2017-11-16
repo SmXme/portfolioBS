@@ -6,16 +6,16 @@ function checkFormContact(){
 	var msg = $('#txtAreaContact');
 	if (lastName.val() == "" || firstName.val() == "" || eMail.val() == "" || msg.val() == ""){
 		if (lastName.val() == "") {
-			lastName.css("background-color","rgba(224, 76, 15,1)");
+			lastName.toggleClass("toggleFormClass");
 		}
 		if(firstName.val() == ""){
-			firstName.css("background-color","rgba(224, 76, 15,1)");
+			firstName.toggleClass("toggleFormClass");
 		}
 		if(eMail.val() == ""){
-			eMail.css("background-color","rgba(224, 76, 15,1)");
+			eMail.toggleClass("toggleFormClass");
 		}
 		if (msg.val() == ""){
-			msg.css("background-color","rgba(224, 76, 15,1)");
+			msg.toggleClass("toggleFormClass");
 		}
 	} 
 	else 
@@ -25,4 +25,19 @@ function checkFormContact(){
 	return result;
 }	
 $('#formContact').submit(checkFormContact);
+$('#inputLastName').focus(function(){
+	$(this).removeClass("toggleFormClass");
+});
+
+$('#inputFirstName').focus(function(){
+	$('#inputFirstName').removeClass("toggleFormClass");
+});
+
+$('#inputMail').focus(function(){
+	$('#inputMail').removeClass("toggleFormClass");
+});
+
+$('#txtAreaContact').focus(function(){
+	$('#txtAreaContact').removeClass("toggleFormClass");
+});
 
