@@ -9,19 +9,23 @@
 				<div class="form-row form-group">
 					<div class="col">
 						<input type="text" name="inputLastName" id="inputLastName" class="form-control form-control-lg" placeholder="Nom">
+						<span id ="spanError1" class="fa fa-exclamation errspan"></span>
 					</div>
 					<div class="col">
 						<input type="text" name="inputFirstName" id="inputFirstName" class="form-control form-control-lg" placeholder="Prénom">
+						<span id ="spanError2" class="fa fa-exclamation errspan"></span>
 					</div>
 				</div>
 				<div class="form-row  form-group">
 					<div class="col">
 						<input type="email" class="form-control form-control-lg" name="inputMail" id="inputMail" placeholder="Email">
+						<span id ="spanError3" class="fa fa-exclamation errspan"></span>
 					</div>
 				</div>
 				<div class="form-row form-group">
 					<div class="col">
 						<textarea rows=7 maxlength="250" name="txtAreaContact" id="txtAreaContact" class="form-control form-control-lg" placeholder="Message (250 caractères max)."></textarea>
+						<span id ="spanError4" class="fa fa-exclamation errspan"></span>
 					</div>
 				</div>
 				<div class="form-row form-group justify-content-center">
