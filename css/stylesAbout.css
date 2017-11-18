@@ -36,14 +36,7 @@
 	font-size: 0.7em;
 	margin-bottom:5px; 
 }
-/*#monTitreTest::after{
-	display: inline-block;
-	content: '';
-	background-color: white;
-	vertical-align: middle;
-	height: 2px;
-	width: 3rem;
-}*/
+
 .aboutSidebar .fa{
 	padding-right: 20px;
 }
@@ -102,6 +95,7 @@
 	font-size: 0.6em;
 	margin-left: 2px;
 }
+
 @keyframes openSidebar {
 	0%	{opacity: 0; height: 0;}
 	10%	{opacity: 0;}
@@ -118,3 +112,4 @@
 	66%	{opacity: 0;}
 	100% {opacity: 1;}
 }
+

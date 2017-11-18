@@ -1,5 +1,5 @@
 <section class="row mainSection">
-	<div class="aboutSidebar col-md-3">
+	<div class="aboutSidebar mCustomScrollbar pr-0 col-md-3" data-mcs-theme="inset">
 		<div id="testMyPhoto" class="text-center pt-2">
 			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
 		</div>
@@ -63,7 +63,7 @@
 		</div>
 
 	</div>
-	<div id="divAbout" class="txtOrange col-md">
+	<div id="divAbout" class="txtOrange col-md mCustomScrollbar pr-0" data-mcs-theme="inset">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
 			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p>
@@ -86,12 +86,12 @@
 			</li>
 		</ul>
 		<h2 class="mt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
-		<ul class="mt-3">
+		<ul class="mt-3 mb-0">
 			<li><p><span class="badge badge-secondary">En Cours</span> - <b>Formation Codeur Développeur Intégrateur WEB</b> - <i>ISF, Damigny.</i></p></li>
 			<li><p><span class="badge badge-secondary">2013 / 2017 </span> - <b>BTS Service Informatique aux Organisations option Solutions Logicielles et Applications Métiers</b> - <i>CNED, Poitiers.</i></p></li>
 			<li><p><span class="badge badge-secondary">2012 / 2013 </span> - <b>DUT Informatique 1ère Année</b> - <i>IUT, Maubeuge.</i></p></li>
 			<li><p><span class="badge badge-secondary">2010 / 2012 </span> - <b>BAC Sciences et Technologies Industrielles option Structure Métallique</b> - <i>Lycée Pierre Forest, Maubeuge.</i></p></li>
-			<li><p><span class="badge badge-secondary">2009 / 2010</span> - <b>BEPC</b> - <i>Collège Charles de Gaulle, Jeumont.</i></p></li>
+			<li><p class="mb-0"><span class="badge badge-secondary">2009 / 2010</span> - <b>BEPC</b> - <i>Collège Charles de Gaulle, Jeumont.</i></p></li>
 		</ul>
 	</div>
 </section>

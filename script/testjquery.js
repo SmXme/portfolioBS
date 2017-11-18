@@ -49,3 +49,15 @@ $('#txtAreaContact').focus(function(){
 	$("#spanError4").css("display","none");
 });
 
+
+(function($){
+        $(window).on("load",function(){
+            $(".aboutSidebar").mCustomScrollbar();
+            $(".divAbout").mCustomScrollbar();
+            $(".mentionSection").mCustomScrollbar();
+        });
+    })(jQuery);
+
+
+
+
