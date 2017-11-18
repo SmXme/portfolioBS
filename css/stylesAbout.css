@@ -2,7 +2,7 @@
 	background-color: #e04c0f;
 	color:white;
 	animation-name: openSidebar;
-	animation-duration: 3s;
+	animation-duration: 1.3s;
 	overflow: auto;
 
 }
@@ -55,7 +55,7 @@
 	border-radius: 10px;
 	margin-top: 5px;
 	animation-name: gauges;
-	animation-duration: 4s;
+	animation-duration: 2.3s;
 	align-items: center;
 }
 .txtPercent{
@@ -81,7 +81,7 @@
 	width: 100%;
 }
 #divAbout{
-	animation-duration: 5s;
+	animation-duration: 2.3s;
 	animation-name: displayAbout;
 	overflow: auto;
 }

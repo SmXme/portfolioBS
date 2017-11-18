@@ -5,7 +5,7 @@
 	bottom: 0;
 	left: 0;
 	animation-name: silhouetteAccueil;
-	animation-duration: 1.5s; 
+	animation-duration: 1.3s; 
 }
 .mainSection aside #homeBubbleTitle{
 	position: absolute;
@@ -16,7 +16,7 @@
 	margin-top: 1.3vh;
 	opacity: 0.93;
 	animation-name: bulleAccueil;
-	animation-duration: 3s;
+	animation-duration: 2.3s;
 }
 
 .mainSection aside #titleInBubble{
@@ -26,11 +26,11 @@
 	margin-right: 21.5vw;
 	margin-top: 4vh;
 	animation-name: titreAccueil;
-	animation-duration: 4.5s;
+	animation-duration: 3s;
 }
 #homeArticle{
 	animation-name: titreAccueil;
-	animation-duration: 4.5s;
+	animation-duration: 3s;
 }
 .btn-primary{
 	color:#e04c0f;

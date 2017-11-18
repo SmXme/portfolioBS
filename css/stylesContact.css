@@ -5,11 +5,11 @@
 	width: 65vw;
 	margin-left: -27vw;
 	animation-name: silhouetteContact;
-	animation-duration: 2s;
+	animation-duration: 1.3s;
 }
 #divFormContact{
 	animation-name: formContact;
-	animation-duration: 3.5s;
+	animation-duration: 2.3s;
 }
 #formContact{
 	font-family: 'Roboto',sans-serif;
