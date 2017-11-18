@@ -4,7 +4,7 @@
 	</div>
 	<div id="divFooterRS" class="p-0 col-sm-6 col-md-6 col-lg-4">
 		<a href="https://github.com/SmXme/" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-		<a href="https://www.linkedin.com/in/cl%C3%A9ment-pillot-8827a6140/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+		<a href="www.linkedin.com/in/SmXme" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 		<a href="https://www.facebook.com/SmXme/" target="_blank"><i class="fa fa-facebook-square ml-1" aria-hidden="true"></i></a>
 		<a href="https://www.twitter.com/_smxme" target="_blank"><i class="fa fa-twitter-square ml-1" aria-hidden="true"></i></a>
 	</div>
