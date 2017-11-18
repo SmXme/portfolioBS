@@ -1,23 +1,49 @@
 .card{
 	width: 20rem;
 	height : 32rem;
-	border-color: rgba(224, 76, 15,1);
+	border: 2px solid rgba(224, 76, 15,1);
 	animation-name: animCards;
-	animation-duration:2s; 
+	animation-duration:1.3s; 
+	position: relative;
+	background-color: rgba(224, 76, 15,1);
+}
+
+.card img{
+	border-radius: 5px;
+	border-bottom: 1px solid white;
 }
 
 .card-body{
 	animation-name: animCardBody;
-	animation-duration: 4s;  
+	animation-duration: 2.3s;  
+	padding: 0;
+	background-color: white;
+}
+.card-body p{
+	padding: 0 10px;
+	text-align: left;
 }
 
+.card-body h4{
+	width: 100%;
+	background-color: rgba(224, 76, 15,1);
+	padding: 5px 0;
+	padding-left: 10px;
+	color: white; 
+}
 @keyframes animCardBody{
 	0% { opacity: 0;}
 	50% { opacity: 0;}
 	100% {opacity: 1;}	
 }
 @keyframes animCards {
-	0% {width: 0rem; opacity: 0;}
+	0% {width: 0rem; height: 0rem; opacity: 0;}
 	20% {opacity: 0;}
-	100% {width: 20rem;opacity: 1;}
+	100% {width: 20rem; height:32rem;opacity: 1;}
+}
+
+.card a.btn{
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
 }
