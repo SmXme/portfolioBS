@@ -9,7 +9,7 @@
 	transition: all 0.150s linear;
 }
 .card:hover{
-	transform: scale(1.15);
+	transform: scale(1.05);
 }
 .card img{
 	border-radius: 5px;
