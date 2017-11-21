@@ -20,11 +20,11 @@
 </div>
 
 <div class="card">
-   <a href="https://portfoliobs.smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_portfoliobs-sp4.png" alt="Screenshot de l'application RankMeAPP"></a>
+   <a href="https://smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_portfoliobs-sp4.png" alt="Screenshot de l'application RankMeAPP"></a>
   <div class="card-body">
     <h4 class="card-title">Site personnel</h4>
     <p class="card-text">Site réalisé en tant que projet personnel dans le cadre de ma formation actuelle de Codeur / Développeur / Intégrateur WEB.</p>
-    <a href="https://portfoliobs.smxme.fr" target="_blank" class="btn btn-primary">Visiter</a>
+    <a href="https://smxme.fr" target="_blank" class="btn btn-primary">Visiter</a>
   </div>
 </div>
 

@@ -6,8 +6,11 @@
 	animation-duration:1.3s; 
 	position: relative;
 	background-color: rgba(224, 76, 15,1);
+	transition: all 0.150s linear;
 }
-
+.card:hover{
+	transform: scale(1.15);
+}
 .card img{
 	border-radius: 5px;
 	border-bottom: 1px solid white;
@@ -32,6 +35,8 @@
 	padding-left: 10px;
 	color: white; 
 }
+
+
 @keyframes animCardBody{
 	0% { opacity: 0;}
 	50% { opacity: 0;}
