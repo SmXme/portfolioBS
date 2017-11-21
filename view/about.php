@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<h5 class="subTitle"><i class="fa fa-futbol-o" aria-hidden="true"></i>Divers</h5>
+		<h5 class="subTitle"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>Autres</h5>
 		<h6 class="text-center labelGauge">Adobe After Effects</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divtQuart">
@@ -76,7 +76,7 @@
 		<ul class="mt-3">
 			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Derdre-IT</b> - <i>Paris.</i></p>
 				<ul>
-					<li>Création d'une application de traitements et d'affichages de statistiques en, provenant d'un fichier SQL généré par un plugin sur un serveur de jeu (CSGO).</li>
+					<li>Création d'une application de traitements et d'affichages de statistiques, provenant d'un fichier SQL généré par un plugin sur un serveur de jeu (CSGO).</li>
 					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
 				</ul>
 			</li>
@@ -99,7 +99,6 @@
 			<li><p><span class="badge badge-secondary">2013 / 2017 </span> - <b>BTS Service Informatique aux Organisations option Solutions Logicielles et Applications Métiers</b> - <i>CNED, Poitiers.</i></p></li>
 			<li><p><span class="badge badge-secondary">2012 / 2013 </span> - <b>DUT Informatique 1ère Année</b> - <i>IUT, Maubeuge.</i></p></li>
 			<li><p><span class="badge badge-secondary">2010 / 2012 </span> - <b>BAC Sciences et Technologies Industrielles option Structure Métallique</b> - <i>Lycée Pierre Forest, Maubeuge.</i></p></li>
-			<li><p class="mb-0"><span class="badge badge-secondary">2009 / 2010</span> - <b>BEPC</b> - <i>Collège Charles de Gaulle, Jeumont.</i></p></li>
 		</ul>
 	</div>
 </section>

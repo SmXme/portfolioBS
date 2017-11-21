@@ -23,8 +23,9 @@
 	position: absolute;
 	top:0;
 	right: 0;
-	margin-right: 21.5vw;
-	margin-top: 4vh;
+	font-size: 3em;
+	margin-right: 22vw;
+	margin-top: 3.2vh;
 	animation-name: titreAccueil;
 	animation-duration: 3s;
 }
