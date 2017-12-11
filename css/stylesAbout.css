@@ -4,7 +4,6 @@
 	animation-name: openSidebar;
 	animation-duration: 1.3s;
 	overflow: auto;
-
 }
 .aboutSidebar #testMyPhoto img{
 	width: 40%;
@@ -81,7 +80,7 @@
 #divAbout{
 	animation-duration: 2.3s;
 	animation-name: displayAbout;
-	overflow: auto;
+	overflow: auto; 
 }
 #divAbout h2{
 	color : #e04c0f;
@@ -118,3 +117,16 @@
 	100% {opacity: 1;}
 }
 
+@media (min-width: 576px) and (max-width: 767px) { 
+	html,body{
+		overflow: auto;
+	}
+	.aboutSidebar{
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	.subTitle{
+		text-align: left;
+		border-bottom: 1px rgba(255,255,255,1) dotted;
+	}
+}
