@@ -1,5 +1,5 @@
 <section class="row mainSection">
-	<div class="aboutSidebar mCustomScrollbar pr-0 col-md-3" data-mcs-theme="inset">
+	<div class="aboutSidebar mCustomScrollbar pr-0 col-xs-12 col-md-3" data-mcs-theme="inset">
 		<div id="testMyPhoto" class="text-center pt-2">
 			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
 		</div>
@@ -66,12 +66,12 @@
 		<h6 class="text-center labelGauge">Montage PC</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divFull">
-				<span class="txtPercent">100%<span>
+				<span class="txtPercent pb-4">100%<span>
 			</div>
 		</div>
 
 	</div>
-	<div id="divAbout" class="txtOrange col-md mCustomScrollbar pr-0" data-mcs-theme="inset">
+	<div id="divAbout" class="txtOrange col-xs-12 col-md-9 mCustomScrollbar pr-0" data-mcs-theme="inset">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
 			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Stagiaire Développeur</b> - <b>Derdre-IT</b> - <i>Paris.</i></p>
