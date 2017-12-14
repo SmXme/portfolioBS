@@ -12,4 +12,5 @@ $headers = 'From: '. $inputMail . "\r\n" .
 'Content-type: text/html; charset="utf-8"';
 
 mail($to, $subject, $message, $headers);
+header('Location: ../index.php?page=contact');
 ?>
