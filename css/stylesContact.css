@@ -68,14 +68,18 @@
     color: white;
 }
 .errspan {
-        float: right;
-        margin-right: 6px;
-        margin-top: -20px;
-        position: relative;
-        z-index: 2;
-        color: white;
-        display: none;
-    }
+    float: right;
+    margin-right: 6px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    display: none;
+}
+.msgError{
+	animation: msgError 7s;
+	animation-fill-mode: forwards;
+}
 
 @keyframes animFormError{
 	0% {background-color:rgba(225, 255, 255,1);}
@@ -92,6 +96,12 @@
     33% {opacity: 0;}
     66% {opacity: 0;}
     100% {opacity: 1;}
+}
+@keyframes msgError{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	75% {opacity: 1;}
+	100% {opacity: 0;}
 }
 
 @media screen and (min-width: 1920px) and (min-height: 915px){
