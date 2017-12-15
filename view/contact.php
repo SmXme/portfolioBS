@@ -41,7 +41,7 @@ if (isset($_SESSION['msgSent']) AND $_SESSION['msgSent']) {
 	echo "<div class='container-fluid fixed-bottom bg-success text-white text-center'><p>Votre message m'a bien été envoyé, je vous répondrais dans les meilleurs délais, à bientôt !</p></div>";
 }else{
 	if(isset($_SESSION['msgSent']) AND !$_SESSION['msgSent']){
-	echo "<div class='container-fluid fixed-bottom bg-danger text-white text-center'><p>Il y a eu un problème avec votre message... veuillez réessayer.</p></div>"
+	echo "<div class='container-fluid fixed-bottom bg-danger text-white text-center'><p>Il y a eu un problème avec votre message... veuillez réessayer.</p></div>";
 	}
 }
 ?>
