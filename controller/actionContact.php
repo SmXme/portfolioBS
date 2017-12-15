@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $inputFirstName = htmlspecialchars($_POST['inputFirstName']);
 $inputLastName = htmlspecialchars($_POST['inputLastName']);
@@ -12,5 +13,6 @@ $headers = 'From: '. $inputMail . "\r\n" .
 'Content-type: text/html; charset="utf-8"';
 
 mail($to, $subject, $message, $headers);
+$_SESSION['msgSent'] = true;
 header('Location: ../index.php?page=contact');
 ?>
