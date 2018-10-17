@@ -2,7 +2,7 @@
 <section class="row mainSection d-flex flex-row justify-content-around align-items-center">
   <div class="col-xs-12 mt-4 mt-md-0 col-md-3 d-flex justify-content-center">
     <div class="card">
-       <a href="http://gestemps.smxme.fr/gestemps.php" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_gestemps-sp4.png" alt="Screenshot de l'application Gestemps"></a>
+       <a href="http://gestemps.smxme.fr/Gestemps.php" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_gestemps-sp4.png" alt="Screenshot de l'application Gestemps"></a>
       <div class="card-body">
         <h4 class="card-title">Gestemps</h4>
         <p class="card-text">Application de gestion de temps de travail.</p> 
@@ -14,7 +14,7 @@
 
   <div class="col-xs-12 mt-4 mt-md-0 col-md-3 d-flex justify-content-center">
     <div class="card">
-      <a href="http://rankcsgofr.smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_rankmeapp-sp4.png" alt="Screenshot de l'application RankMeAPP"></a>
+      <a href="http://rankcsgofr.smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_rankmeapp-sp4.png" alt="Screenshot de l'application RankCSGOFR"></a>
       <div class="card-body">
         <h4 class="card-title">RankMeAPP</h4>
         <p class="card-text">Application de statistiques de joueurs.</p>
@@ -25,7 +25,7 @@
 </div>
 <div class="col-xs-12 mt-4 mt-md-0 mb-4 mb-md-0 col-md-3 d-flex justify-content-center">
     <div class="card">
-       <a href="https://smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_portfoliobs-sp4.png" alt="Screenshot de l'application RankMeAPP"></a>
+       <a href="https://smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_portfoliobs-sp4.png" alt="Screenshot du portfolio"></a>
       <div class="card-body">
         <h4 class="card-title">Site personnel</h4>
         <p class="card-text">Portfolio réalisé en tant que projet personnel au début de ma formation de Codeur / Développeur / Intégrateur WEB.</p>
@@ -36,7 +36,7 @@
 
 <div class="col-xs-12 mt-4 mt-md-0 mb-4 mb-md-0 col-md-3 d-flex justify-content-center">
     <div class="card">
-       <a href="https://smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_sendwish-sp4.png" alt="Screenshot de l'application RankMeAPP"></a>
+       <a href="https://sendwish.smxme.fr" target="_blank"><img class="card-img-top" src="images/screenshotFullscreen_sendwish-sp4.png" alt="Screenshot de Sendwish"></a>
       <div class="card-body">
         <h4 class="card-title">Sendwish</h4>
         <p class="card-text">Site d'un fast-food fictif réalisé en tant que projet de groupe de fin de formation, faisant état de nos acquis et à présenter devant un jury.</p>
