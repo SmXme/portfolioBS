@@ -24,7 +24,7 @@
 				<span class="txtPercent">90%</span>
 			</div>
 		</div>
-		<h6 class="text-center labelGauge">Javascript</h6>
+		<h6 class="text-center labelGauge">Javascript / jQuery / AJAX</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divHalf">
 				<span class="txtPercent">50%</span>
