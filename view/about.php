@@ -4,11 +4,12 @@
 			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
 		</div>
 		<h3><i class="fa fa-id-card" aria-hidden="true"></i>Informations</h3>
-		<h6><i class="fa fa-user-circle" aria-hidden="true"></i>Clément PILLOT (22 ans)</h6>
+		<h6><i class="fa fa-user-circle" aria-hidden="true"></i>Clément PILLOT (23 ans)</h6>
 		<h6><i class="fa fa-briefcase" aria-hidden="true"></i>Développeur WEB</h6>
-		<h6><i class="fa fa-home" aria-hidden="true"></i>Chérisay, FR</h6>
+		<h6><i class="fa fa-home" aria-hidden="true"></i>Chérisay / Marcheprime, FR</h6>
 		<h6><i class="fa fa-envelope" aria-hidden="true"></i>pillot.clement@gmail.com</h6>
 		<h6><i class="fa fa-phone" aria-hidden="true"></i>06.14.58.44.88</h6>
+		<h6><i class="fa fa-car" aria-hidden="true"></i>Permis B</h6>
 		<h3><i class="fa fa-certificate" aria-hidden="true"></i>Compétences</h3>
 		<h5 class="subTitle"><i class="fa fa-terminal" aria-hidden="true"></i>Développement WEB</h5>
 		<h6 class="text-center labelGauge">HTML</h6>
@@ -42,7 +43,7 @@
 			</div>
 		</div>
 
-		<h5 class="subTitle"><i class="fa fa-comments-o" aria-hidden="true"></i>Langues</h5>
+		<h5 class="subTitle"><i class="fa fa-comment-dots" aria-hidden="true"></i>Langues</h5>
 		<h6 class="text-center labelGauge">Anglais</h6>
 		<div class="testPercentContainer">
 			<div class="jsp divHalf">
@@ -74,7 +75,13 @@
 	<div id="divAbout" class="txtOrange col-xs-12 col-md-9 mCustomScrollbar pr-0" data-mcs-theme="inset">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
-			<li><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Stagiaire Développeur</b> - <b>Derdre-IT</b> - <i>Paris.</i></p>
+			<li><p class="m-0"><span class="badge badge-secondary">Janvier 2018 / Février 2018</span> - <b>Stagiaire Développeur</b> - <b>Numériplan</b> - <i>Mamers.</i></p>
+				<ul>
+					<li>Création et Intégration d’un module de statistiques grâce à l’api Google Charts dans une démarche de qualité.</li>
+					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">JS</span><span class="badge badge-pill badge-language">jQuery</span><span class="badge badge-pill badge-language">AJAX</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
+				</ul>
+			</li>
+			<li class="mt-3"><p class="m-0"><span class="badge badge-secondary">Mars 2017 / Avril 2017</span> - <b>Stagiaire Développeur</b> - <b>Derdre-IT</b> - <i>Paris.</i></p>
 				<ul>
 					<li>Création d'une application de traitements et d'affichages de statistiques, provenant d'un fichier SQL généré par un plugin sur un serveur de jeu (CSGO).</li>
 					<li class="list-unstyled"><span class="badge badge-pill badge-language">HTML</span><span class="badge badge-pill badge-language">CSS</span><span class="badge badge-pill badge-language">PHP</span><span class="badge badge-pill badge-language">SQL</span></li>
@@ -95,7 +102,7 @@
 		</ul>
 		<h2 class="mt-3"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Mon cursus</h2>
 		<ul class="mt-3 mb-0">
-			<li><p><span class="badge badge-secondary">En Cours</span> - <b>Certification WebForce3 Codeur Développeur Intégrateur WEB</b> - <i>ISF, Damigny.</i></p></li>
+			<li><p><span class="badge badge-secondary">2017 / 2018</span> - <b>Certification WebForce3 Codeur Développeur Intégrateur WEB</b> - <i>ISF, Damigny.</i></p></li>
 			<li><p><span class="badge badge-secondary">2013 / 2017 </span> - <b>BTS Service Informatique aux Organisations option Solutions Logicielles et Applications Métiers</b> - <i>CNED, Poitiers.</i></p></li>
 			<li><p><span class="badge badge-secondary">2012 / 2013 </span> - <b>DUT Informatique 1ère Année</b> - <i>IUT, Maubeuge.</i></p></li>
 			<li><p><span class="badge badge-secondary">2010 / 2012 </span> - <b>BAC Sciences et Technologies Industrielles option Structure Métallique</b> - <i>Lycée Pierre Forest, Maubeuge.</i></p></li>
