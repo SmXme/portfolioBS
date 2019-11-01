@@ -6,7 +6,8 @@
       <div class="card-body">
         <h4 class="card-title">Gestemps</h4>
         <p class="card-text">Application de gestion de temps de travail.</p> 
-        <p class="card-text">J'ai réalisé une refonte graphique ainsi que la création de certains modules utilisateurs, lors d'un stage d'un mois au sein de L'IRFSS Croix Rouge d'Alençon.</p>
+        <p class="card-text">J'ai réalisé une refonte graphique ainsi que la création de certains modules, durant un stage d'un mois à L'IRFSS Croix Rouge d'Alençon.</p>
+        <p class="card-text">En cours de remise en ligne.</p>
         <a href="http://gestemps.smxme.fr/Gestemps.php" target="_blank" class="btn btn-primary">Visiter</a>
       </div>
     </div>
@@ -19,7 +20,8 @@
         <h4 class="card-title">RankMeAPP</h4>
         <p class="card-text">Application de statistiques de joueurs.</p>
         <p>J'ai développé de A à Z cette application, m'appuyant sur un plugin DeathMatch CSGO lors d'un stage d'une durée d'un mois.</p>
-        <a href="http://rankcsgofr.smxme.fr" target="_blank" class="btn btn-primary">Visiter</a>
+          <p class="card-text">En cours de remise en ligne.</p>
+          <a href="http://rankcsgofr.smxme.fr" target="_blank" class="btn btn-primary ">Visiter</a>
       </div>
     </div>
 </div>

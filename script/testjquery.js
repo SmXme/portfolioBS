@@ -50,14 +50,5 @@ $('#txtAreaContact').focus(function(){
 });
 
 
-(function($){
-        $(window).on("load",function(){
-            $(".aboutSidebar").mCustomScrollbar();
-            $(".divAbout").mCustomScrollbar();
-            $(".mentionSection").mCustomScrollbar();
-        });
-    })(jQuery);
-
-
 
 
