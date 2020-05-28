@@ -8,9 +8,9 @@
 }
 .aboutSidebar #testMyPhoto img{
 	width: 40%;
-	border-radius: 10px;
-	border: 1px solid white;
-	
+	border-radius: 50%;
+	border: 2px solid white;
+	margin-top: 10px;
 }
 .aboutSidebar h3{
 	margin-top: 1vw;

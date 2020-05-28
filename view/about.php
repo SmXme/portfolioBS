@@ -1,10 +1,10 @@
 <section class="row mainSection">
 	<div class="aboutSidebar col-xs-12 col-md-3" data-mcs-theme="inset">
 		<div id="testMyPhoto" class="text-center pt-2">
-			<img src="images/myPhoto.jpg" alt="Photo de l'auteur du site">
+			<img src="images/myNewPhoto.jpg" alt="Photo de l'auteur du site">
 		</div>
 		<h3><i class="fa fa-id-card" aria-hidden="true"></i>Informations</h3>
-		<h6><i class="fa fa-user-circle" aria-hidden="true"></i>Clément PILLOT (24 ans)</h6>
+		<h6><i class="fa fa-user-circle" aria-hidden="true"></i>Clément PILLOT (25 ans)</h6>
 		<h6><i class="fa fa-briefcase" aria-hidden="true"></i>Développeur WEB</h6>
 		<h6><i class="fa fa-home" aria-hidden="true"></i>Chérisay / Le Mans, FR</h6>
 		<h6><i class="fa fa-envelope" aria-hidden="true"></i>pillot.clement@gmail.com</h6>
@@ -87,7 +87,7 @@
 	<div id="divAbout" class="txtOrange col-xs-12 col-md-9 mCustomScrollbar pr-0" data-mcs-theme="inset">
 		<h2 class="mt-3"><i class="fa fa-suitcase" aria-hidden="true"></i>Mes expériences</h2>
 		<ul class="mt-3">
-            <li><p class="m-0"><span class="badge badge-secondary">Décembre 2018 / Actuellement</span> - <b>Développeur WEB</b> - <b>CodeColliders</b> - <i>Le Mans.</i></p>
+            <li><p class="m-0"><span class="badge badge-secondary">Décembre 2018 / Décembre 2019</span> - <b>Développeur WEB</b> - <b>CodeColliders</b> - <i>Le Mans.</i></p>
                 <ul>
                     <li class="list-unstyled"><span class="badge badge-pill badge-language">WordPress</span><span class="badge badge-pill badge-language">Drupal</span><span class="badge badge-pill badge-language">Symfony</span><span class="badge badge-pill badge-language">VueJS</span><span class="badge badge-pill badge-language">& More</span></li>
                 </ul>
