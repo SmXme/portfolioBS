@@ -34,7 +34,7 @@
     </div>
   </div>
 
-<!--    <div class="col-xs-12 mt-4 mt-md-0 col-md-3 d-flex justify-content-center">
+    <div class="col-xs-12 mt-4 mt-md-0 col-md-3 d-flex justify-content-center">
         <div class="card">
             <a href="https://zimouledev.smxme.fr" target="_blank"><img class="card-img-top" src="images/screen_zimoule.jpg" alt="Screenshot du site de Zimoule"></a>
             <div class="card-body">
@@ -46,7 +46,7 @@
                 <a href="https://zimouledev.smxme.fr/" target="_blank" class="btn btn-primary">Visiter</a>
             </div>
         </div>
-    </div>-->
+    </div>
 
 </section>
 </div>
